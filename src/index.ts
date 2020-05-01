@@ -5,12 +5,17 @@ import { reroutePathsInDatabaseFile } from "./reroute";
 
 const staticFiles = [
   "actors.db",
+  "actor_references.db",
   "cross_references.db",
   "custom_fields.db",
+  "labelled_items.db",
   "labels.db",
+  "marker_references.db",
   "markers.db",
+  "movie_scenes.db",
   "movies.db",
-  "queue.db",
+  "processing.db",
+  "scene_views.db",
   "studios.db",
 ];
 
