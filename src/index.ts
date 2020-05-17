@@ -77,7 +77,7 @@ async function main() {
     }
   }
 
-  if (args.debug) {
+  if (!args.debug) {
     await reroutePathsInDatabaseFile(
       fileInOldLibrary("scenes.db"),
       fileInNewLibrary("scenes.db"),
